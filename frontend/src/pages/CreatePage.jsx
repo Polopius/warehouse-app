@@ -1,5 +1,3 @@
-"use client"
-
 import { useProductStore } from '../store/products'
 import { useColorModeValue } from '../hooks/use-color-mode'
 import { Box, Button, Container, Heading, Input, VStack } from '@chakra-ui/react'
@@ -34,7 +32,6 @@ const CreatePage = () => {
         closable: true,
       })
     }
-
     setNewProduct({name: "", quantity: "", price: "", image: ""})
   }
   
